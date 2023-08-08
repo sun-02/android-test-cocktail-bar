@@ -2,5 +2,12 @@
 ## Что сделано
 * Экран со списком. Работает режим пустого списка и заполненного. Поскольку остальная функциональность не реализована, кнопка "добавить коктейль" используется для загрузки захардкоженного списка в базу данных.  Кнопка срабатывает не с первого раза. Возможно это только у меня. Для очистки базы необходимо удалять данные приложения или само приложение. 
 * Скриншоты экрана.
-<img src="https://user-images.githubusercontent.com/59739589/259238892-07743919-71d5-4ece-88bb-869c4775b5e5.jpg" alt="drawing" width="200"/>
-<img src="https://user-images.githubusercontent.com/59739589/259238938-b57faa3c-1d6b-4a50-95a6-77fe1a2cc956.jpg" alt="drawing" width="200"/>
+
+<table>
+<tr>
+<th> <img src="https://user-images.githubusercontent.com/59739589/259238892-07743919-71d5-4ece-88bb-869c4775b5e5.jpg" alt="drawing" width="400"/> </th>
+<th> <img src="https://user-images.githubusercontent.com/59739589/259238938-b57faa3c-1d6b-4a50-95a6-77fe1a2cc956.jpg" alt="drawing" width="400"/> </th>
+</tr>
+</table>
+
+
