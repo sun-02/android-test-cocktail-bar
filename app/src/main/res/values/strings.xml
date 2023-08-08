@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">android-test-cocktail-bar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_cocktails">My cocktails</string>
+    <string name="add_cocktail">Add your first\n cocktail here</string>
+    <string name="title">Title</string>
+    <string name="cocktail_name">Cocktail name</string>
+    <string name="add_title">Add title</string>
+    <string name="description">Description</string>
+    <string name="optional_field">Optional field</string>
+    <string name="recipe">Recipe</string>
+    <string name="recipe_colon">Recipe:</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Content description -->
+    <string name="add_cocktail_desc">Add cocktail</string>
+    <string name="arrow_down_desc">Arrow down</string>
+    <string name="cocktail_desc">Cocktail</string>
+</resources>

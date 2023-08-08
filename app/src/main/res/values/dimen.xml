@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_size">80dp</dimen>
+    <dimen name="empty_list_stub_bottom_margin">117dp</dimen>
+    <dimen name="empty_list_stub_top_margin">24dp</dimen>
+    <dimen name="fab_bottom_margin">21dp</dimen>
+    <dimen name="min_elevation">0dp</dimen>
+    <dimen name="max_elevation">4dp</dimen>
+    <dimen name="bottom_app_bar_height">61dp</dimen>
+    <dimen name="bottom_app_bar_top_corners_radius">61dp</dimen>
+    <dimen name="bottom_app_bar_cradle_corner_radius">0dp</dimen>
+    <dimen name="recycler_view_margin_horizontal">12dp</dimen>
+    <dimen name="recycler_view_item_margin">4dp</dimen>
+    <dimen name="recycler_view_item_text_bottom_margin">34dp</dimen>
+    <dimen name="recycler_view_item_corner_radius">54dp</dimen>
+</resources>

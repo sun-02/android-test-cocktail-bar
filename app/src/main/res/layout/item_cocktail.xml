@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.android_test_cocktail_bar.custom_view.EquilateralCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/recycler_view_item_margin"
+    app:cardCornerRadius="@dimen/recycler_view_item_corner_radius"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/cover_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/cocktail_desc"
+        android:scaleType="centerCrop"
+        tools:src="@tools:sample/backgrounds/scenic[5]" />
+
+    <TextView
+        android:id="@+id/label_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/recycler_view_item_text_bottom_margin"
+        tools:text="@string/my_cocktails"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AndroidTestCocktailBar.Body1" />
+
+</com.example.android_test_cocktail_bar.custom_view.EquilateralCardView>

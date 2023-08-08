@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CocktailsFragment">
+
+    <LinearLayout
+        android:id="@+id/empty_list_stub_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/empty_list_stub_top_margin"
+        android:layout_gravity="bottom"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/empty_list_image_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:srcCompat="@drawable/summer_holidays" />
+
+        <TextView
+            android:id="@+id/my_cocktails_label_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/my_cocktails"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AndroidTestCocktailBar.Headline4" />
+
+        <TextView
+            android:id="@+id/add_cocktail_caption_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/add_cocktail"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AndroidTestCocktailBar.Caption" />
+
+        <ImageView
+            android:id="@+id/arrow_down_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/empty_list_stub_bottom_margin"
+            app:srcCompat="@drawable/arrow_down"
+            app:tint="@color/light_gray" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cocktails_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/recycler_view_margin_horizontal"
+            android:visibility="gone"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="2"
+            tools:itemCount="12"
+            tools:listitem="@layout/item_cocktail" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_cocktail_fab"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:layout_marginBottom="21dp"
+        android:clickable="true"
+        android:contentDescription="@string/add_cocktail_desc"
+        android:focusable="true"
+        app:elevation="0dp"
+        app:fabCustomSize="@dimen/fab_size"
+        app:layout_anchor="@id/bottom_app_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/plus"
+        app:tint="@color/white" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_app_bar_height"
+        android:layout_gravity="bottom"
+        app:elevation="@dimen/min_elevation"
+        app:fabCradleRoundedCornerRadius="@dimen/bottom_app_bar_cradle_corner_radius"
+        style="Theme.AndroidTestCocktailBar.BottomAppBar"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <FrameLayout
+        android:id="@+id/progress_bar_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_semitransparent">
+
+        <ProgressBar
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

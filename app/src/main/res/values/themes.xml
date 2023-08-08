@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AndroidTestCocktailBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorSecondary">@color/light_primary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.AndroidTestCocktailBar" parent="Base.Theme.AndroidTestCocktailBar" />
+
+    <style name="Theme.AndroidTestCocktailBar.FloatingActionButton" parent="Theme.AndroidTestCocktailBar">
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+
+    <style name="TextAppearance.AndroidTestCocktailBar.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/didact_gothic_400</item>
+        <item name="android:fontFamily">@font/didact_gothic_400</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+    <style name="TextAppearance.AndroidTestCocktailBar.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/didact_gothic_400</item>
+        <item name="android:fontFamily">@font/didact_gothic_400</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+    <style name="TextAppearance.AndroidTestCocktailBar.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/didact_gothic_400</item>
+        <item name="android:fontFamily">@font/didact_gothic_400</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextAppearance.AndroidTestCocktailBar.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/didact_gothic_400</item>
+        <item name="android:fontFamily">@font/didact_gothic_400</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+    <style name="TextAppearance.AndroidTestCocktailBar.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/didact_gothic_400</item>
+        <item name="android:fontFamily">@font/didact_gothic_400</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/light_gray</item>
+    </style>
+
+    <style name="Theme.AndroidTestCocktailBar.BottomAppBar" parent="Theme.AndroidTestCocktailBar">
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.AndroidTestCocktailBar.SmallComponent</item>
+    </style>
+
+    <style name="ShapeAppearance.AndroidTestCocktailBar.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+</resources>
